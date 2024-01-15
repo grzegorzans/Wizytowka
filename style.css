@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+        background-color:aliceblue;
+}
+
+nav {
+    background-color:firebrick;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+main {
+    background-color: antiquewhite;
+    float: left;
+    width: 60vw;
+    padding: 45px;
+}
+
+aside {
+    background-color: whitesmoke;
+    float: left;
+    width: 20vw;
+}
+
+footer {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    padding: 0 50px 0 50px;
+    margin: 0 30px 0 30px;
+}
+
+#wstepny {
+    font-size: 28px;
+}
+
+#portret{
+    height: 275px;
+    width: auto;
+    margin: 25px 0 75px 0;
+}
+
+.zdj {
+    margin: 25px 0 25px 0;
+    border: 2px dashed black;
+    border-radius: 25px;
+    height: 250px;
+    width: auto;
+}
+
+#glowna{
+    font-size: 24px;
+}
+
+#menu{
+    float: left;
+    height: 28px;
+    margin-left: 12px;
+}
+
+ul, ol {
+    list-style-position: inside;
+    margin: 5px 0 5px 0;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#portret {
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+#zainteresowania:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kolumna{
+    float:left;
+    width: 50%;
+}
